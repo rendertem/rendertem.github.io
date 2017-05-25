@@ -1,0 +1,70 @@
+*
+{
+	color: #00ff00;
+	background-color: #000000;
+}
+a
+{
+	color: #008000;
+}
+a:hover
+{
+	color: #00ff00;
+	background-color: #004000;
+}
+b.highlightet
+{
+	color: #ffffff;
+}
+@media (min-width: 500px)
+{
+	div.header h1
+	{
+		background-color: #00ff00;
+		color: #ff0000;
+	}
+}
+input.inputText
+{
+	background-color: #404040;
+	color: #00ff00;
+}
+@media (min-width: 500px)
+{
+	input.inputText
+	{
+		background-color: #404040;
+		color: #00ff00;
+	}
+}
+button.buttonSubmit
+{
+	background-color: #404040;
+	color: #00ff00;
+}
+table
+{
+	background-color: #306030;
+}
+td
+{
+	border-color: #ff0000;
+	background-color: #000000;
+}
+*::-moz-selection
+{
+	color: #ffffff;
+	background-color: #ff0000;
+}
+*::selection
+{
+	color: #ffffff;
+	background-color: #000000;
+}
+@media (min-width: 500px)
+{
+	ul.nav li.nav a
+	{
+		border: 1px solid #ffffff;
+	}
+}
